@@ -19,7 +19,11 @@
 	},
 	"categories": [
 		"Other"
-	],
+  ],
+  "scripts": {
+    "package": "vsce package",
+    "register": "code --install-extension"
+  },
 	"activationEvents": [
 		"onCommand:cypressHelper.openSpecFile",
 		"onCommand:cypressHelper.openSingleTest",
